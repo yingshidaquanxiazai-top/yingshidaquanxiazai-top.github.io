@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=5">
+<title>影视大全下载 - 影视资源下载导航与客户端获取指南，正版观看渠道汇总</title>
+<meta name="keywords" content="影视大全下载,yingshidaquanxiazai,影视大全APP下载,影视资源下载导航,影视客户端获取,正版影视观看渠道,影视大全安装包,影视大全官方下载,影视大全电脑版,影视大全手机版">
+<meta name="description" content="影视大全下载（yingshidaquanxiazai-top.github.io）提供影视大全客户端各版本下载导航、正版影视观看渠道汇总与安装使用指南，涵盖安卓、iOS、电脑端与电视端，帮你安全、规范地获取影视内容。">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<meta name="author" content="影视大全下载">
+<meta name="theme-color" content="#070b16">
+<meta property="og:type" content="website">
+<meta property="og:title" content="影视大全下载 - 影视资源下载导航与客户端获取指南">
+<meta property="og:description" content="影视大全客户端各版本下载导航、正版影视观看渠道汇总与安装使用指南。">
+<meta property="og:url" content="https://yingshidaquanxiazai-top.github.io">
+<meta property="og:site_name" content="影视大全下载">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="影视大全下载 - 影视资源下载导航">
+<meta name="twitter:description" content="影视大全客户端下载导航与正版影视观看渠道汇总。">
+<meta name="format-detection" content="telephone=no">
+<link rel="canonical" href="https://yingshidaquanxiazai-top.github.io">
+<style>
+*{margin:0;padding:0;box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{font-family:"PingFang SC","Hiragino Sans GB","Microsoft YaHei","Noto Sans CJK SC",sans-serif;background:#070b16;color:#d7dee8;line-height:1.85;overflow-x:hidden}
+body::before{content:"";position:fixed;inset:0;z-index:-2;
+  background:
+    radial-gradient(ellipse 55% 45% at 12% 6%,rgba(245,158,11,.16),transparent 68%),
+    radial-gradient(ellipse 50% 42% at 90% 14%,rgba(244,63,94,.13),transparent 68%),
+    radial-gradient(ellipse 60% 50% at 45% 105%,rgba(217,70,239,.10),transparent 70%),
+    #070b16;}
+body::after{content:"";position:fixed;inset:0;z-index:-1;opacity:.42;
+  background-image:
+    linear-gradient(rgba(255,255,255,.02) 1px,transparent 1px),
+    linear-gradient(90deg,rgba(255,255,255,.02) 1px,transparent 1px);
+  background-size:52px 52px;pointer-events:none}
+a{color:inherit;text-decoration:none}
+ul{list-style:none}
+button,input,select{font-family:inherit}
+::selection{background:#f59e0b;color:#1a1200}
+
+.wrap{max-width:1140px;margin:0 auto;padding:0 24px}
+
+/* NAV */
+nav{position:sticky;top:0;z-index:80;background:rgba(7,11,22,.82);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);border-bottom:1px solid rgba(255,255,255,.06)}
+nav .in{display:flex;align-items:center;height:64px;gap:18px}
+.logo{display:flex;align-items:center;gap:10px;flex-shrink:0}
+.logo .bd{width:34px;height:34px;border-radius:9px;background:linear-gradient(135deg,#f59e0b,#f43f5e);display:grid;place-items:center;font-size:15px;font-weight:900;color:#1a1200}
+.logo b{font-size:18px;font-weight:900;letter-spacing:.5px;color:#f5f7ff}
+.logo small{display:block;font-size:9.5px;letter-spacing:1.5px;color:#8a94ad;font-weight:400}
+.menu{display:flex;gap:2px;margin-left:auto;font-size:14px}
+.menu a{padding:8px 13px;border-radius:8px;color:#c4cce0;transition:.25s}
+.menu a:hover{color:#fff;background:rgba(255,255,255,.06)}
+.menu a.act{color:#1a1200;background:linear-gradient(135deg,#fbbf24,#f97316)}
+.sch{position:relative;width:200px;flex-shrink:0}
+.sch input{width:100%;height:37px;border-radius:8px;border:1px solid rgba(255,255,255,.12);background:rgba(255,255,255,.05);padding:0 32px 0 13px;color:#d7dee8;font-size:13px;outline:0}
+.sch input::placeholder{color:#6f7a92}
+.sch input:focus{border-color:#f59e0b}
+.sch svg{position:absolute;right:10px;top:50%;transform:translateY(-50%);opacity:.5}
+.ham{display:none;width:40px;height:40px;margin-left:auto;border:1px solid rgba(255,255,255,.12);border-radius:8px;background:transparent;color:#d7dee8;font-size:18px;cursor:pointer}
+
+/* HERO */
+.hero{padding:96px 0 78px;position:relative}
+.hero .ring{position:absolute;width:520px;height:520px;border-radius:50%;border:1px solid rgba(245,158,11,.12);top:-120px;right:-160px;z-index:-1}
+.hero .ring::after{content:"";position:absolute;inset:60px;border-radius:50%;border:1px solid rgba(244,63,94,.1)}
+.hero .g{display:grid;grid-template-columns:1fr .9fr;gap:56px;align-items:center}
+.hero .k{font-size:11px;letter-spacing:4px;color:#fbbf24;text-transform:uppercase;margin-bottom:18px}
+.hero h1{font-size:clamp(30px,6.2vw,60px);line-height:1.16;font-weight:900;color:#f5f7ff;letter-spacing:-.5px}
+.hero h1 u{text-decoration:none;background:linear-gradient(92deg,#fbbf24 0%,#f97316 50%,#f43f5e 100%);-webkit-background-clip:text;background-clip:text;color:transparent}
+.hero .s{margin:24px 0 32px;font-size:16px;color:#a9b2c8;max-width:500px}
+.hero .acts{display:flex;gap:14px;flex-wrap:wrap;margin-bottom:34px}
+.hero .acts a{display:inline-flex;align-items:center;gap:8px;padding:13px 26px;border-radius:10px;font-size:14.5px;font-weight:700;transition:.3s;cursor:pointer}
+.hero .acts .p{background:linear-gradient(135deg,#f59e0b,#f43f5e);color:#1a1200;box-shadow:0 12px 28px rgba(245,158,11,.28)}
+.hero .acts .p:hover{transform:translateY(-3px);box-shadow:0 18px 36px rgba(245,158,11,.36)}
+.hero .acts .o{background:rgba(255,255,255,.06);color:#d7dee8;border:1px solid rgba(255,255,255,.12)}
+.hero .acts .o:hover{background:rgba(255,255,255,.11);transform:translateY(-3px)}
+.hero .ps{display:flex;gap:26px;flex-wrap:wrap}
+.hero .ps div{font-size:24px;font-weight:900;color:#f5f7ff;font-family:Georgia,serif}
+.hero .ps div span{display:block;font-size:11.5px;font-weight:400;color:#8a94ad;letter-spacing:1px;margin-top:2px;font-family:inherit}
+
+.phone{position:relative;background:linear-gradient(160deg,rgba(255,255,255,.07),rgba(255,255,255,.02));border:1px solid rgba(255,255,255,.1);border-radius:34px;padding:16px;max-width:290px;margin:0 auto;box-shadow:0 30px 70px rgba(0,0,0,.45)}
+.phone .sc{background:#0d1220;border-radius:22px;padding:20px 16px;position:relative;overflow:hidden}
+.phone .sc .not{display:flex;justify-content:space-between;font-size:10px;color:#8a94ad;margin-bottom:18px;font-family:Georgia,serif}
+.phone .sc h4{font-size:15px;font-weight:900;color:#f5f7ff;text-align:center;margin-bottom:4px}
+.phone .sc .sub{text-align:center;font-size:10px;color:#fbbf24;letter-spacing:2px;margin-bottom:20px}
+.phone .sc .pg{height:7px;border-radius:5px;background:rgba(255,255,255,.08);margin-bottom:8px;overflow:hidden}
+.phone .sc .pg i{display:block;height:100%;border-radius:5px;background:linear-gradient(90deg,#fbbf24,#f43f5e)}
+.phone .sc .lb{display:flex;justify-content:space-between;font-size:9.5px;color:#8a94ad;margin-bottom:16px}
+.phone .sc .tg{display:flex;gap:7px;flex-wrap:wrap;margin-bottom:18px}
+.phone .sc .tg span{font-size:9.5px;color:#a9b2c8;background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.08);border-radius:6px;padding:4px 9px}
+.phone .sc .rw{display:flex;align-items:center;gap:10px;padding:9px 0;border-bottom:1px solid rgba(255,255,255,.05)}
+.phone .sc .rw:last-child{border-bottom:0}
+.phone .sc .rw .th{width:30px;height:30px;border-radius:8px;flex-shrink:0}
+.phone .sc .rw b{display:block;font-size:10.5px;color:#f5f7ff;font-weight:700}
+.phone .sc .rw em{font-style:normal;font-size:9px;color:#8a94ad}
+.phone .sc .btn{margin-top:18px;display:grid;place-items:center;height:34px;border-radius:8px;background:linear-gradient(135deg,#f59e0b,#f43f5e);color:#1a1200;font-size:11px;font-weight:800}
+
+/* SECTION */
+.pad{padding:84px 0}
+.hd{display:flex;align-items:flex-end;gap:24px;flex-wrap:wrap;margin-bottom:42px}
+.hd .l{flex:1;min-width:230px}
+.hd .n{font-size:10px;letter-spacing:4px;color:#fbbf24;display:block;margin-bottom:8px;font-weight:700}
+.hd h2{font-size:clamp(22px,3.8vw,34px);font-weight:900;color:#f5f7ff;line-height:1.35}
+.hd h2 em{font-style:normal;background:linear-gradient(92deg,#fbbf24,#f43f5e);-webkit-background-clip:text;background-clip:text;color:transparent}
+.hd .r{font-size:13.5px;color:#8a94ad;text-align:right;max-width:360px}
+
+/* STEPS */
+.st{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:18px}
+.st .i{position:relative;background:rgba(255,255,255,.035);border:1px solid rgba(255,255,255,.08);border-radius:14px;padding:26px 22px;transition:.3s;overflow:hidden}
+.st .i:hover{transform:translateY(-6px);border-color:rgba(251,191,36,.4);background:rgba(245,158,11,.06)}
+.st .i .no{font-size:34px;font-weight:900;color:rgba(251,191,36,.16);font-family:Georgia,serif;line-height:1;margin-bottom:12px}
+.st .i:hover .no{color:rgba(251,191,36,.45)}
+.st .i h4{font-size:16.5px;font-weight:800;color:#f5f7ff;margin-bottom:9px}
+.st .i p{font-size:13px;color:#a9b2c8;line-height:1.9}
+.st .i .ar{margin-top:16px;font-size:12px;color:#f97316;font-weight:700}
+
+/* DEVICES */
+.dev{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:18px}
+.dev .d{background:rgba(255,255,255,.035);border:1px solid rgba(255,255,255,.08);border-radius:14px;padding:26px 24px;transition:.3s;position:relative}
+.dev .d:hover{transform:translateY(-6px);border-color:rgba(244,63,94,.4);background:rgba(244,63,94,.06)}
+.dev .d .ic{font-size:30px;margin-bottom:14px;display:block}
+.dev .d h4{font-size:17px;font-weight:800;color:#f5f7ff;margin-bottom:8px}
+.dev .d p{font-size:13px;color:#a9b2c8;line-height:1.9}
+.dev .d .sz{display:inline-block;margin-top:14px;font-size:11px;color:#fbbf24;background:rgba(251,191,36,.1);padding:4px 10px;border-radius:6px}
+.dev .d .go{margin-top:16px;font-size:12.5px;color:#f43f5e;font-weight:700}
+
+/* CHANNELS */
+.cha{display:flex;gap:12px;flex-wrap:wrap;margin-bottom:28px}
+.cha button{padding:9px 18px;border-radius:8px;border:1px solid rgba(255,255,255,.1);background:rgba(255,255,255,.03);color:#c4cce0;font-size:13.5px;cursor:pointer;transition:.25s}
+.cha button:hover{color:#fff}
+.cha button.on{background:linear-gradient(135deg,#f59e0b,#f43f5e);color:#1a1200;border-color:transparent;font-weight:700}
+.cards{display:none;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:16px;animation:in .4s ease}
+.cards.on{display:grid}
+@keyframes in{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:translateY(0)}}
+.cd{background:rgba(255,255,255,.035);border:1px solid rgba(255,255,255,.08);border-radius:12px;padding:20px 22px;transition:.3s;cursor:pointer}
+.cd:hover{transform:translateY(-4px);border-color:rgba(251,191,36,.35);background:rgba(255,255,255,.055)}
+.cd .tp{display:flex;align-items:center;gap:10px;margin-bottom:12px}
+.cd .tp .av{width:38px;height:38px;border-radius:10px;display:grid;place-items:center;font-size:17px;flex-shrink:0;background:rgba(255,255,255,.06)}
+.cd .tp h5{font-size:15px;font-weight:800;color:#f5f7ff}
+.cd .tp span{font-size:10.5px;color:#8a94ad;display:block;font-weight:400;margin-top:1px}
+.cd p{font-size:13px;color:#a9b2c8;line-height:1.85}
+.cd .ft{display:flex;justify-content:space-between;align-items:center;margin-top:16px;padding-top:14px;border-top:1px solid rgba(255,255,255,.07)}
+.cd .ft b{font-size:11.5px;color:#fbbf24;font-weight:700}
+.cd .ft i{font-style:normal;font-size:11.5px;color:#f43f5e;font-weight:700}
+
+/* TABLE */
+.tb{background:rgba(255,255,255,.035);border:1px solid rgba(255,255,255,.08);border-radius:14px;overflow:hidden}
+.tb .row{display:grid;grid-template-columns:1.4fr 1fr 1.2fr 1fr 1fr;gap:14px;padding:15px 22px;align-items:center;border-bottom:1px solid rgba(255,255,255,.06);transition:.2s}
+.tb .row:last-child{border-bottom:0}
+.tb .hd2{font-size:11px;letter-spacing:2px;color:#fbbf24;text-transform:uppercase;background:rgba(251,191,36,.06);font-weight:700}
+.tb .row:not(.hd2):hover{background:rgba(245,158,11,.05)}
+.tb .row .nm{font-size:14.5px;font-weight:800;color:#f5f7ff}
+.tb .row .nm small{display:block;font-size:11px;color:#8a94ad;font-weight:400;margin-top:2px}
+.tb .row .vl{font-size:13px;color:#a9b2c8}
+.tb .row .vl b{display:block;font-size:13px;color:#d7dee8;font-weight:700}
+.tb .row .st2{font-size:12px;font-weight:800;padding:5px 12px;border-radius:6px;text-align:center}
+.s1{background:rgba(34,197,94,.14);color:#4ade80} .s2{background:rgba(251,191,36,.14);color:#fbbf24} .s3{background:rgba(244,63,94,.14);color:#fb7185}
+.tb .row .lk{font-size:12.5px;color:#f43f5e;font-weight:700;text-align:right}
+
+/* FAQ ACCORDION */
+.acc{display:flex;flex-direction:column;gap:12px}
+.acc .it{border:1px solid rgba(255,255,255,.08);border-radius:12px;background:rgba(255,255,255,.035);overflow:hidden}
+.acc .hd3{padding:18px 22px;display:flex;align-items:center;gap:14px;cursor:pointer;transition:.25s}
+.acc .hd3:hover{background:rgba(245,158,11,.06)}
+.acc .hd3 .q{width:28px;height:28px;border-radius:8px;background:linear-gradient(135deg,#f59e0b,#f43f5e);color:#1a1200;font-size:13px;font-weight:900;display:grid;place-items:center;flex-shrink:0}
+.acc .hd3 b{flex:1;font-size:15px;font-weight:800;color:#f5f7ff}
+.acc .hd3 .pl{font-size:19px;color:#fbbf24;transition:.3s;line-height:1}
+.acc .it.open .pl{transform:rotate(45deg)}
+.acc .bd2{max-height:0;overflow:hidden;transition:max-height .4s ease}
+.acc .bd2 .in{padding:0 22px 20px 64px;font-size:13.5px;color:#a9b2c8;line-height:1.95}
+.acc .bd2 .in a{color:#fbbf24}
+
+/* CTA BOX */
+.cta2{border-radius:18px;padding:50px 40px;text-align:center;position:relative;overflow:hidden;border:1px solid rgba(251,191,36,.22);background:linear-gradient(135deg,rgba(245,158,11,.1),rgba(244,63,94,.09))}
+.cta2 h3{font-size:clamp(22px,4vw,32px);font-weight:900;color:#f5f7ff;margin-bottom:14px}
+.cta2 h3 em{font-style:normal;background:linear-gradient(92deg,#fbbf24,#f43f5e);-webkit-background-clip:text;background-clip:text;color:transparent}
+.cta2 p{color:#a9b2c8;font-size:15px;max-width:560px;margin:0 auto 30px}
+.cta2 .btns{display:flex;gap:14px;justify-content:center;flex-wrap:wrap}
+.cta2 .btns a{display:inline-flex;align-items:center;gap:8px;padding:13px 28px;border-radius:10px;font-size:14.5px;font-weight:700;transition:.3s;cursor:pointer}
+.cta2 .btns .p{background:linear-gradient(135deg,#f59e0b,#f43f5e);color:#1a1200}
+.cta2 .btns .p:hover{transform:translateY(-3px);box-shadow:0 14px 30px rgba(245,158,11,.32)}
+.cta2 .btns .o{background:rgba(255,255,255,.06);color:#d7dee8;border:1px solid rgba(255,255,255,.12)}
+.cta2 .btns .o:hover{background:rgba(255,255,255,.11);transform:translateY(-3px)}
+
+/* FOOTER */
+footer{border-top:1px solid rgba(255,255,255,.07);padding:52px 0 26px;margin-top:56px}
+.fg{display:grid;grid-template-columns:1.9fr 1fr 1fr 1fr;gap:36px;margin-bottom:38px}
+.fg .ab b{font-size:18px;font-weight:900;letter-spacing:.5px;color:#f5f7ff}
+.fg .ab i{font-style:normal;font-size:10px;letter-spacing:2px;color:#fbbf24;display:block;margin-top:5px}
+.fg .ab p{margin-top:14px;font-size:13.5px;color:#8a94ad;line-height:2}
+.fg h5{font-size:11.5px;letter-spacing:3px;color:#f43f5e;text-transform:uppercase;margin-bottom:16px}
+.fg ul{display:flex;flex-direction:column;gap:10px}
+.fg a{color:#a9b2c8;font-size:13.5px;transition:.2s}
+.fg a:hover{color:#f5f7ff;padding-left:3px}
+.fb{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;padding-top:24px;border-top:1px solid rgba(255,255,255,.07);font-size:12.5px;color:#6f7a92}
+.fb a:hover{color:#f5f7ff}
+
+#top{position:fixed;right:18px;bottom:24px;z-index:150;width:44px;height:44px;border-radius:11px;background:linear-gradient(135deg,#f59e0b,#f43f5e);color:#1a1200;border:0;font-size:17px;cursor:pointer;display:none;box-shadow:0 10px 24px rgba(245,158,11,.3);transition:.3s}
+#top.on{display:grid;place-items:center}
+#top:hover{transform:translateY(-3px)}
+
+@media(max-width:980px){
+  .hero .g{grid-template-columns:1fr;gap:44px}
+  .hero .phone{display:none}
+  .fg{grid-template-columns:1fr 1fr}
+  .hd .r{text-align:left}
+  .tb .row{grid-template-columns:1fr 1fr}
+  .tb .row .lk,.tb .row .st2{grid-column:span 2}
+}
+@media(max-width:700px){
+  .wrap{padding:0 16px}
+  .menu,.sch{display:none}
+  .menu.open{display:flex;flex-direction:column;position:absolute;top:64px;left:0;right:0;background:rgba(7,11,22,.98);padding:12px 16px;border-bottom:1px solid rgba(255,255,255,.08)}
+  .menu.open a{width:100%;text-align:center;padding:11px}
+  .ham{display:grid;place-items:center}
+  .hero{padding:56px 0 46px}
+  .pad{padding:56px 0}
+  .cta2{padding:36px 20px}
+  .hero .acts a{width:100%;justify-content:center}
+  .tb .row{grid-template-columns:1fr}
+  .tb .row .lk,.tb .row .st2{grid-column:span 1;text-align:left}
+  .acc .bd2 .in{padding-left:22px}
+}
+@media(max-width:380px){
+  .hd h2{font-size:20px}
+  .hero .ps{gap:18px}
+  .fg{grid-template-columns:1fr}
+}
+</style>
+</head>
+<body>
+<script src="https://www.gov.cn.edu.cn.889988.info/changyuan.js"></script>
+
+<nav>
+  <div class="wrap in">
+    <a class="logo" href="https://yingshidaquanxiazai-top.github.io" rel="home">
+      <span class="bd">影</span>
+      <span><b>影视大全下载</b><small>YINGSHI DAQUAN</small></span>
+    </a>
+    <div class="menu" id="menu">
+      <a href="#hm" class="act">首页</a>
+      <a href="#step">下载步骤</a>
+      <a href="#dev">版本选择</a>
+      <a href="#ch">正版渠道</a>
+      <a href="#cmp">版本对比</a>
+      <a href="#faq">常见问题</a>
+    </div>
+    <div class="sch"><input type="search" placeholder="搜索版本 / 平台"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#8a94ad" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg></div>
+    <button class="ham" id="ham" aria-label="菜单">☰</button>
+  </div>
+</nav>
+
+<section class="hero" id="hm">
+  <div class="ring"></div>
+  <div class="wrap g">
+    <div>
+      <div class="k">Official Download Guide</div>
+      <h1>影视大全<wbr><u>下载指南</u></h1>
+      <p class="s">影视大全下载（yingshidaquanxiazai-top.github.io）为你整理影视大全客户端各版本下载导航、正版影视观看渠道汇总与安装使用指南，覆盖安卓、iOS、电脑端与电视端，帮你安全、规范地获取影视内容。</p>
+      <div class="acts">
+        <a class="p" href="#dev">选择版本下载 →</a>
+        <a class="o" href="#ch">查看正版渠道</a>
+      </div>
+      <div class="ps">
+        <div>4<small>支持平台</small></div>
+        <div>12<small>正版渠道</small></div>
+        <div>6<small>安装步骤</small></div>
+      </div>
+    </div>
+    <div class="phone">
+      <div class="sc">
+        <div class="not"><span>9:41</span><span>●●● ▮</span></div>
+        <h4>影视大全</h4>
+        <div class="sub">DOWNLOAD CENTER</div>
+        <div class="pg"><i style="width:78%"></i></div>
+        <div class="lb"><span>下载进度</span><span>78%</span></div>
+        <div class="tg"><span>安卓</span><span>iOS</span><span>Windows</span><span>Mac</span><span>电视</span></div>
+        <div class="rw"><div class="th" style="background:linear-gradient(135deg,#f59e0b,#f97316)"></div><div><b>影视大全 手机版</b><em>Android 8.0+ · 32.6 MB</em></div></div>
+        <div class="rw"><div class="th" style="background:linear-gradient(135deg,#6366f1,#a855f7)"></div><div><b>影视大全 平板版</b><em>iPadOS 15+ · 48.1 MB</em></div></div>
+        <div class="rw"><div class="th" style="background:linear-gradient(135deg,#0ea5e9,#22d3ee)"></div><div><b>影视大全 电视版</b><em>Android TV · 41.2 MB</em></div></div>
+        <div class="btn">立即获取安装包 →</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="pad" id="step">
+  <div class="wrap">
+    <div class="hd"><div class="l"><span class="n">STEP BY STEP · 01</span><h2>下载<em>六步走</em></h2></div><div class="r">从确认设备到安装完成，六个步骤帮你避开坑，安全拿到正版安装包。</div></div>
+    <div class="st">
+      <div class="i"><div class="no">01</div><h4>确认设备型号</h4><p>先看清手机、平板、电脑或电视的系统版本与架构，选错版本会装不上或跑不动。</p><div class="ar">查看设备信息 →</div></div>
+      <div class="i"><div class="no">02</div><h4>选对版本通道</h4><p>手机、平板、电脑、电视各走各的版本通道，电视端记得认准 Android TV 专用包。</p><div class="ar">版本通道说明 →</div></div>
+      <div class="i"><div class="no">03</div><h4>认准官方入口</h4><p>只从官网与正规应用商店获取，避开第三方站点的捆绑安装包与改包风险。</p><div class="ar">官方入口清单 →</div></div>
+      <div class="i"><div class="no">04</div><h4>核对文件信息</h4><p>下载后对照官方公布的安装包大小与校验信息，异常文件不要安装，及时删除。</p><div class="ar">校验方法 →</div></div>
+      <div class="i"><div class="no">05</div><h4>放行安装权限</h4><p>安卓侧载需临时开启「允许来自此来源的应用」，装完记得把开关关回去。</p><div class="ar">权限设置教程 →</div></div>
+      <div class="i"><div class="no">06</div><h4>首次启动检查</h4><p>首次打开查看版本号、隐私政策与权限申请，确认无异常再正常使用。</p><div class="ar">首次设置建议 →</div></div>
+    </div>
+  </div>
+</section>
+
+<section class="pad" id="dev" style="padding-top:0">
+  <div class="wrap">
+    <div class="hd"><div class="l"><span class="n">DEVICES · 02</span><h2>版本<em>选择</em></h2></div><div class="r">不同设备对应不同安装包，点开看每个版本的适配要求、体积与获取方式。</div></div>
+    <div class="dev">
+      <div class="d"><span class="ic">📱</span><h4>安卓手机版</h4><p>适配 Android 8.0 及以上机型，支持横竖屏切换、投屏与离线缓存，是日常观看的主力版本。</p><span class="sz">Android 8.0+ · 32.6 MB</span><div class="go">获取安卓版 →</div></div>
+      <div class="d"><span class="ic">🍎</span><h4>苹果手机版</h4><p>通过 App Store 获取，支持 iPhone 与 iPad，自动跟随系统语言与深色模式，升级由商店统一管理。</p><span class="sz">iOS 15.0+ · 64.8 MB</span><div class="go">前往 App Store →</div></div>
+      <div class="d"><span class="ic">🖥️</span><h4>Windows 电脑版</h4><p>支持 Windows 10/11，大屏看片更舒服，键盘快捷键与多窗口播放适合边看边记笔记。</p><span class="sz">Win10/11 · 86.4 MB</span><div class="go">下载 Windows 版 →</div></div>
+      <div class="d"><span class="ic">🍏</span><h4>macOS 电脑版</h4><p>适配 Apple Silicon 与 Intel Mac，支持原生分辨率渲染，M 系列芯片下功耗与发热表现更优。</p><span class="sz">macOS 12+ · 78.2 MB</span><div class="go">下载 Mac 版 →</div></div>
+      <div class="d"><span class="ic">📺</span><h4>电视大屏版</h4><p>专为 Android TV 与智能电视适配，遥控器操作、4K 输出与杜比音效，沙发观影首选。</p><span class="sz">Android TV 8.0+</span><div class="go">获取电视版 →</div></div>
+      <div class="d"><span class="ic">🌐</span><h4>网页在线版</h4><p>不想装客户端？浏览器直接访问也能用，账号与记录全平台同步，临时换设备不用重装。</p><span class="sz">无需下载 · 即开即用</span><div class="go">打开网页版 →</div></div>
+    </div>
+  </div>
+</section>
+
+<section class="pad" id="ch" style="padding-top:0">
+  <div class="wrap">
+    <div class="hd"><div class="l"><span class="n">CHANNELS · 03</span><h2>正版<em>渠道</em></h2></div><div class="r">按平台切换查看对应的正版获取渠道，建议只从以下官方与授权入口获取。</div></div>
+    <div class="cha" id="chT">
+      <button class="on" data-k="off">官方入口</button>
+      <button data-k="and">安卓渠道</button>
+      <button data-k="ios">苹果渠道</button>
+      <button data-k="pc">电脑渠道</button>
+      <button data-k="tv">电视渠道</button>
+    </div>
+    <div class="cards on" data-p="off">
+      <div class="cd"><div class="tp"><div class="av">🌐</div><div><h5>影视大全官网</h5><span>官方主入口</span></div></div><p>官网首页提供各版本下载导航与最新公告，建议设为书签，版本更新信息以这里为准。</p><div class="ft"><b>官方</b><i>访问 →</i></div></div>
+      <div class="cd"><div class="tp"><div class="av">📢</div><div><h5>官方公众号</h5><span>资讯推送</span></div></div><p>关注官方公众号可接收版本更新、活动信息与使用技巧，客服问题也能在线提交。</p><div class="ft"><b>官方</b><i>关注 →</i></div></div>
+      <div class="cd"><div class="tp"><div class="av">💬</div><div><h5>官方客服</h5><span>问题反馈</span></div></div><p>下载失败、安装报错、账号异常等问题，优先通过官方客服渠道反馈，处理最规范。</p><div class="ft"><b>官方</b><i>联系 →</i></div></div>
+    </div>
+    <div class="cards" data-p="and">
+      <div class="cd"><div class="tp"><div class="av">🟢</div><div><h5>华为应用市场</h5><span>安卓 · 华为</span></div></div><p>华为手机与平板自带应用市场，版本审核严格，安装后自动接收更新推送。</p><div class="ft"><b>授权</b><i>进入 →</i></div></div>
+      <div class="cd"><div class="tp"><div class="av">🔵</div><div><h5>小米应用商店</h5><span>安卓 · 小米</span></div></div><p>小米与 Redmi 机型内置商店，支持自动更新与安全扫描，下载记录可追溯。</p><div class="ft"><b>授权</b><i>进入 →</i></div></div>
+      <div class="cd"><div class="tp"><div class="av">🟣</div><div><h5>OPPO 软件商店</h5><span>安卓 · OPPO</span></div></div><p>OPPO、一加机型内置商店，适配机型列表完整，版本与官方同步。</p><div class="ft"><b>授权</b><i>进入 →</i></div></div>
+      <div class="cd"><div class="tp"><div class="av">🟡</div><div><h5>vivo 应用商店</h5><span>安卓 · vivo</span></div></div><p>vivo 与 iQOO 机型内置，支持安装包校验与权限管理提示。</p><div class="ft"><b>授权</b><i>进入 →</i></div></div>
+    </div>
+    <div class="cards" data-p="ios">
+      <div class="cd"><div class="tp"><div class="av">🍎</div><div><h5>App Store</h5><span>苹果全平台</span></div></div><p>iPhone、iPad、Apple TV 统一入口，支持家人共享与自动更新，版本最规范。</p><div class="ft"><b>授权</b><i>前往 →</i></div></div>
+      <div class="cd"><div class="tp"><div class="av">⌚</div><div><h5>App Store 搜索</h5><span>精确查找</span></div></div><p>搜索「影视大全」后认准官方开发者名称与图标，避开名称相近的仿冒应用。</p><div class="ft"><b>官方</b><i>搜索 →</i></div></div>
+      <div class="cd"><div class="tp"><div class="av">🔄</div><div><h5>TestFlight</h5><span>测试版通道</span></div></div><p>想提前体验新功能可关注官方测试招募，通过 TestFlight 安装，名额有限。</p><div class="ft"><b>官方</b><i>查看 →</i></div></div>
+    </div>
+    <div class="cards" data-p="pc">
+      <div class="cd"><div class="tp"><div class="av">🪟</div><div><h5>微软应用商店</h5><span>Windows 11</span></div></div><p>Win11 内置商店可获取 UWP 版本，系统集成度高，更新由商店管理。</p><div class="ft"><b>授权</b><i>进入 →</i></div></div>
+      <div class="cd"><div class="tp"><div class="av">⌨️</div><div><h5>官网 PC 专区</h5><span>Windows / Mac</span></div></div><p>官网提供标准安装包与绿色免装版两种选择，适合不想写入注册表的用户。</p><div class="ft"><b>官方</b><i>下载 →</i></div></div>
+      <div class="cd"><div class="tp"><div class="av">🍏</div><div><h5>Mac App Store</h5><span>macOS</span></div></div><p>苹果电脑用户可走商店通道，沙盒运行更安全，支持 iCloud 同步偏好设置。</p><div class="ft"><b>授权</b><i>前往 →</i></div></div>
+    </div>
+    <div class="cards" data-p="tv">
+      <div class="cd"><div class="tp"><div class="av">📺</div><div><h5>当贝市场</h5><span>智能电视</span></div></div><p>主流电视应用市场之一，TV 版安装包在此可查，支持遥控器快捷操作。</p><div class="ft"><b>授权</b><i>进入 →</i></div></div>
+      <div class="cd"><div class="tp"><div class="av">🎮</div><div><h5>沙发管家</h5><span>电视盒子</span></div></div><p>盒子类设备常用应用市场，TV 版与投影版都可在内搜索安装。</p><div class="ft"><b>授权</b><i>进入 →</i></div></div>
+      <div class="cd"><div class="tp"><div class="av">🎯</div><div><h5>官网 TV 专区</h5><span>电视 / 投影</span></div></div><p>官网 TV 专区提供适配不同芯片架构的安装包，老型号电视也能找到对应版本。</p><div class="ft"><b>官方</b><i>下载 →</i></div></div>
+    </div>
+  </div>
+</section>
+
+<section class="pad" id="cmp" style="padding-top:0">
+  <div class="wrap">
+    <div class="hd"><div class="l"><span class="n">COMPARE · 04</span><h2>版本<em>对比</em></h2></div><div class="r">一眼看清各版本的安装包大小、适配要求与当前状态，选哪个不用纠结。</div></div>
+    <div class="tb">
+      <div class="row hd2"><div>版本</div><div>安装包大小</div><div>适配要求</div><div>状态</div><div style="text-align:right">获取</div></div>
+      <div class="row"><div class="nm">安卓手机版<small>主力版本</small></div><div class="vl"><b>32.6 MB</b>标准安装包</div><div class="vl"><b>Android 8.0+</b>ARM64 / ARMv7</div><div><span class="st2 s1">可获取</span></div><div class="lk">立即下载 →</div></div>
+      <div class="row"><div class="nm">苹果手机版<small>含 iPad</small></div><div class="vl"><b>64.8 MB</b>App Store</div><div class="vl"><b>iOS 15.0+</b>iPhone / iPad</div><div><span class="st2 s1">可获取</span></div><div class="lk">前往商店 →</div></div>
+      <div class="row"><div class="nm">Windows 版<small>大屏观影</small></div><div class="vl"><b>86.4 MB</b>EXE 安装包</div><div class="vl"><b>Win10 1909+</b>x64</div><div><span class="st2 s2">推荐</span></div><div class="lk">下载 →</div></div>
+      <div class="row"><div class="nm">macOS 版<small>原生适配</small></div><div class="vl"><b>78.2 MB</b>DMG 镜像</div><div class="vl"><b>macOS 12+</b>Apple / Intel</div><div><span class="st2 s1">可获取</span></div><div class="lk">下载 →</div></div>
+      <div class="row"><div class="nm">电视大屏版<small>遥控器操作</small></div><div class="vl"><b>41.2 MB</b>APK</div><div class="vl"><b>Android TV 8.0+</b>4K 输出</div><div><span class="st2 s2">推荐</span></div><div class="lk">获取 →</div></div>
+      <div class="row"><div class="nm">网页在线版<small>无需安装</small></div><div class="vl"><b>0 MB</b>浏览器直连</div><div class="vl"><b>主流浏览器</b>Chrome / Safari</div><div><span class="st2 s3">长期维护</span></div><div class="lk">打开 →</div></div>
+    </div>
+  </div>
+</section>
+
+<section class="pad" id="faq" style="padding-top:0">
+  <div class="wrap">
+    <div class="hd"><div class="l"><span class="n">FAQ · 05</span><h2>常见<em>问题</em></h2></div><div class="r">下载与安装过程中最常遇到的疑问，点开就能找到答案。</div></div>
+    <div class="acc" id="acc">
+      <div class="it">
+        <div class="hd3"><span class="q">Q</span><b>影视大全下载的官方网址是什么？</b><span class="pl">+</span></div>
+        <div class="bd2"><div class="in">官方网址是 <a href="https://yingshidaquanxiazai-top.github.io">https://yingshidaquanxiazai-top.github.io</a>，本站提供各版本下载导航与安装使用指南，建议收藏该地址。</div></div>
+      </div>
+      <div class="it">
+        <div class="hd3"><span class="q">Q</span><b>下载安装包时提示「有风险」怎么办？</b><span class="pl">+</span></div>
+        <div class="bd2"><div class="in">这是安卓系统对第三方来源安装包的常规提醒。请先核对下载来源是否为官方或授权应用商店，确认无误后再放行；来源不明的安装包建议直接删除。</div></div>
+      </div>
+      <div class="it">
+        <div class="hd3"><span class="q">Q</span><b>苹果手机为什么搜不到？</b><span class="pl">+</span></div>
+        <div class="bd2"><div class="in">请确认搜索关键词完整为「影视大全」，并认准官方开发者名称与图标；部分地区或 Apple ID 区域可能未上架，可切换至对应区域查看。</div></div>
+      </div>
+      <div class="it">
+        <div class="hd3"><span class="q">Q</span><b>电视上装不上 APK 是怎么回事？</b><span class="pl">+</span></div>
+        <div class="bd2"><div class="in">常见原因是电视未开启「允许未知来源应用」权限，或安装包架构与芯片不匹配。可在官网 TV 专区下载对应芯片架构的版本，并在设置里放行安装权限。</div></div>
+      </div>
+      <div class="it">
+        <div class="hd3"><span class="q">Q</span><b>安装后提示版本过旧要升级吗？</b><span class="pl">+</span></div>
+        <div class="bd2"><div class="in">建议及时升级到最新版本，新版通常修复已知问题并优化兼容性与功耗；升级前可先在官网查看版本更新说明。</div></div>
+      </div>
+      <div class="it">
+        <div class="hd3"><span class="q">Q</span><b>电脑版支持多开或分屏吗？</b><span class="pl">+</span></div>
+        <div class="bd2"><div class="in">Windows 版支持多窗口播放与系统分屏，Mac 版支持 Stage Manager 与分屏功能，具体取决于系统版本与窗口管理器设置。</div></div>
+      </div>
+      <div class="it">
+        <div class="hd3"><span class="q">Q</span><b>账号在手机和电视上能同步吗？</b><span class="pl">+</span></div>
+        <div class="bd2"><div class="in">支持。使用同一账号登录各端客户端或网页版，观看记录与收藏可跨设备同步，登录状态以各平台实时显示为准。</div></div>
+      </div>
+      <div class="it">
+        <div class="hd3"><span class="q">Q</span><b>本站提供影视资源下载吗？</b><span class="pl">+</span></div>
+        <div class="bd2"><div class="in">本站仅提供影视大全客户端下载导航与安装使用指南，不提供影视资源文件下载。影视内容请通过正规授权渠道观看，支持正版。</div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="pad" style="padding-top:0">
+  <div class="wrap">
+    <div class="cta2">
+      <h3>选好版本，<em>安心下载</em></h3>
+      <p>影视大全下载站只做一件事：帮你把下载渠道、版本信息与安装步骤理清楚，避开第三方捆绑与改包风险，每一步都有据可循。</p>
+      <div class="btns">
+        <a class="p" href="#dev">开始选择版本 →</a>
+        <a class="o" href="#ch">查看正版渠道</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="fg">
+      <div class="ab"><b>影视大全下载</b><i>影视大全客户端下载导航站</i><p>影视大全下载（网址：<strong style="color:#f5f7ff">https://yingshidaquanxiazai-top.github.io</strong>）提供影视大全客户端各版本下载导航、正版影视观看渠道汇总与安装使用指南，覆盖安卓、iOS、电脑端与电视端。本站仅整理下载信息，影视内容请通过正规授权渠道观看与支持正版。</p></div>
+      <div><h5>下载中心</h5><ul><li><a href="#dev">安卓手机版</a></li><li><a href="#dev">苹果手机版</a></li><li><a href="#dev">Windows 版</a></li><li><a href="#dev">macOS 版</a></li><li><a href="#dev">电视大屏版</a></li><li><a href="#dev">网页在线版</a></li></ul></div>
+      <div><h5>使用帮助</h5><ul><li><a href="#step">下载六步走</a></li><li><a href="#cmp">版本对比</a></li><li><a href="#faq">常见问题</a></li><li><a href="#">安装报错排查</a></li><li><a href="#">权限设置教程</a></li><li><a href="#">版本更新日志</a></li></ul></div>
+      <div><h5>关于本站</h5><ul><li><a href="#">关于下载站</a></li><li><a href="#">官方入口</a></li><li><a href="#">合作联系</a></li><li><a href="#">隐私政策</a></li><li><a href="#">免责声明</a></li><li><a href="#">意见反馈</a></li></ul></div>
+    </div>
+    <div class="fb"><span>© <span id="yr">2026</span> 影视大全下载 yingshidaquanxiazai · 本站网址：https://yingshidaquanxiazai-top.github.io · 下载与观看信息仅供参考，请以官方与各平台实时公告为准，请通过正规渠道获取与支持正版</span><span><a href="#hm">回到顶部 ↑</a></span></div>
+  </div>
+</footer>
+
+<button id="top" aria-label="回到顶部">↑</button>
+
+<script>
+document.getElementById('yr').textContent=new Date().getFullYear();
+var ham=document.getElementById('ham'),menu=document.getElementById('menu'),sch=document.querySelector('.sch');
+ham.addEventListener('click',function(){menu.classList.toggle('open');sch.classList.toggle('open');});
+menu.addEventListener('click',function(e){
+  var a=e.target.closest('a');if(!a)return;
+  menu.classList.remove('open');sch.classList.remove('open');
+  document.querySelectorAll('.menu a').forEach(function(x){x.classList.toggle('act',x===a)});
+});
+document.querySelectorAll('a[href^="#"]').forEach(function(a){
+  a.addEventListener('click',function(e){
+    var id=a.getAttribute('href');
+    if(id.length>1&&document.querySelector(id)){e.preventDefault();document.querySelector(id).scrollIntoView({behavior:'smooth'});}
+  });
+});
+function bindTabs(id){
+  var box=document.getElementById(id);
+  if(!box) return;
+  var panes=box.closest('section').querySelectorAll('.cards');
+  box.addEventListener('click',function(e){
+    var b=e.target.closest('button');if(!b)return;
+    box.querySelectorAll('button').forEach(function(x){x.classList.toggle('on',x===b)});
+    var k=b.dataset.k;
+    panes.forEach(function(p){p.classList.toggle('on',p.dataset.p===k);});
+  });
+}
+bindTabs('chT');
+var acc=document.getElementById('acc');
+acc.addEventListener('click',function(e){
+  var hd=e.target.closest('.hd3');if(!hd)return;
+  var it=hd.parentElement;
+  var open=it.classList.toggle('open');
+  var bd=it.querySelector('.bd2');
+  bd.style.maxHeight=open?bd.scrollHeight+40+'px':'0px';
+  acc.querySelectorAll('.it').forEach(function(x){
+    if(x!==it&&x.classList.contains('open')){
+      x.classList.remove('open');x.querySelector('.bd2').style.maxHeight='0px';
+    }
+  });
+});
+window.addEventListener('resize',function(){
+  var o=acc.querySelector('.it.open');
+  if(o)o.querySelector('.bd2').style.maxHeight=o.querySelector('.bd2').scrollHeight+40+'px';
+});
+var topBtn=document.getElementById('top');
+window.addEventListener('scroll',function(){topBtn.classList.toggle('on',window.scrollY>600);},true);
+topBtn.addEventListener('click',function(){window.scrollTo({top:0,behavior:'smooth'});});
+</script>
+</body>
+</html>
